@@ -1,0 +1,58 @@
+#adver{
+    margin-top: 20px;
+    /* position: absolute; */
+}
+#adver .advertisement{
+    display: flex;
+}
+#carouselExampleIndicators{
+    width: 75%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+#adver #carouselExampleIndicators .imgOfslide{
+    height: 300px;
+    width: 100%;
+    border-radius: 50px;
+}
+#adver .Cards{
+    margin-left: 50px;
+}
+#adver .Cards .card{
+    margin-bottom: 10px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    height: 140px;
+}
+#adver .features ul li{
+    cursor: pointer;
+}
+#adver .features{
+    margin-top: 35px;
+}
+#adver .features ul li p{
+    text-align: center;
+}
+#adver .features ul li img{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    transition: 0.2s;
+}
+#adver .features ul li img:hover{
+    transform: translateY(-10px);
+}
+
+#adver .featureList{
+    margin-top: 20px;
+    padding: 10px 0px;
+    background-color: #F8F8F8;
+}
+#adver .featureList ul li i{
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin-right: 10px;
+}

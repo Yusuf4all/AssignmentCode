@@ -1,0 +1,38 @@
+#flowers{
+    margin-top: 30px;
+}
+#flowers h1{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+#flowers h1 button{
+    position: absolute;
+    right: 20px;
+}
+
+#flowers .bigItem{
+    height: 545px;
+    width: 1150px;
+    text-align: center;
+    transition: 0.3s;
+}
+#flowers .bigItem:hover{
+    cursor: pointer;
+}
+#flowers .smallItems .card p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+#flowers .card:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+#flowers ul{
+    flex-wrap: wrap;
+}
+#flowers ul li{
+    margin: 0px 0px 10px 20px;
+    width: 220px;
+}

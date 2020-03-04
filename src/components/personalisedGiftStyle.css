@@ -1,0 +1,26 @@
+#personalised{
+    margin-top: 30px;
+}
+#personalised h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+#personalised h1 button{
+    position: absolute;
+    right: 20px;
+}
+#personalised .card{
+    margin-right: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+#personalised .card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+#personalised .card p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+    

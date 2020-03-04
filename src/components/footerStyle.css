@@ -1,0 +1,78 @@
+footer{
+    margin-top: 30px;
+
+}
+#contactUs {
+    margin-bottom: 2px;
+    background-color:#F2F2F2;
+}
+#contactUs .email{
+    padding: 20px 50px;
+}
+#contactUs .email h6{
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#contactUs .email button{
+ background-color: #F37C15;
+ outline: none;
+ border: none;
+ color: white;
+ font-size: 12px;
+ padding: 10px 15px;
+ position: relative;
+ left: 190px;
+}
+#contactUs .email input{
+    height: 38px;
+    position: absolute;
+}
+#contactUs .social{
+    padding: 20px 50px;
+}
+#contactUs .social h6{
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#contactUs .social i{
+ font-size: 25px;
+ margin-right: 20px;
+}
+
+#contactUs .secure{
+    padding: 20px 50px;
+}
+#contactUs .secure h6{
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#contactUs .secure i{
+ font-size: 25px;
+ margin-right: 20px;
+}
+#footerNav {
+
+    padding: 20px 50px;
+    background-color:#F2F2F2;
+    color: #777;
+} 
+#footerNav ul{
+        display: flex;  
+        flex-wrap: wrap;
+        margin-left: 20px;
+}
+#footerNav ul li{
+    border-right: 1px solid #9e9e9e;
+    font-size: 13px;
+    line-height: 23.3px;
+    padding: 0 10px 0 5px;
+}
+#footerNav h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 23.3px;
+}

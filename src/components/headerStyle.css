@@ -1,0 +1,140 @@
+header{
+    background-color: #34A853;
+    color: #fff;
+    /* z-index: 100; */
+    /* position: fixed; */
+}
+#contact{
+    background-color: #2C9C4A;
+    padding: 0px 40px;    
+}
+#contact p{
+    font-size: 14px;
+    padding: 5px;
+}
+.mainHeader{
+    padding-bottom:20px ;
+}
+.mainHeader ul{
+    padding-left: 25px;
+    display: flex;
+}
+.mainHeader ul .logo{
+    height:58px;
+    width: 170px;
+}
+.mainHeader ul .search{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mainHeader ul .search input{
+    width: 340px;
+    height:41px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.mainHeader ul .search button{
+    color: white;
+    background-color: #FF9212;
+    border: none;
+    padding:8px 10px;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.mainHeader ul .clock{
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-right: 320px;
+}
+.mainHeader ul .clock img{
+    margin-left: 15px;
+    width: 25px;
+    height: 25px;
+}
+.mainHeader ul .clock p{
+    font-size: 12px;
+}
+
+.mainHeader ul li button {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    transition: 1s;
+    outline: none;
+}
+.mainHeader ul .help,.corporate,.cart,.account{
+    margin-top: 18px;  
+    margin-left: 30px;
+}
+
+.mainHeader ul .account{
+    margin-right: 44px;
+}
+
+.mainHeader ul li button:hover{
+    color: #2B2B2B;
+}
+
+.mainHeader ul li button i{
+    font-size: 22px;
+}
+.mainHeader ul li button span{
+    display: block;
+    font-size: 12px;
+}
+.navigation{
+    max-height: 45px;
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.navigation ul{
+    margin-left: 100px;
+}
+.navigation ul .active{
+    color: #09A04A;
+}
+.navigation ul li{
+    cursor: pointer;
+    color: #222;
+    font-size: 13px;
+    margin: 0 10px;
+    padding: 10px 0px;
+    border-bottom: 4px solid #fff;
+}
+.navigation ul li:hover{
+    border-bottom: 4px solid #34A853;
+}
+
+.navigation ul li .dropDown{
+    display: none;
+    width: 200px;
+    position: absolute;
+    top:160px;
+    box-shadow: 0 22px 40px rgba(0,0,0,0.2);
+}
+.navigation ul li .dropDown a{
+    padding: 4px 8px;
+    margin: 4px 2px;
+    Color: rgb(34, 34, 34);
+    display:block;
+    font-size: 13px;
+}
+.navigation ul li .dropDown a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.navigation ul li:hover .dropDown{
+    display: block;
+    z-index: 100;
+    background-color: #fff;
+}
+
+::placeholder{
+    color: #C4C4C4;
+    font-size: 14px;
+    padding:10px;
+}
+

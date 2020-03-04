@@ -1,0 +1,26 @@
+#edibleGifts{
+    margin-top: 30px;
+}
+#edibleGifts h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+#edibleGifts h1 button{
+    position: absolute;
+    right: 20px;
+}
+#edibleGifts .card{
+    margin-right: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+#edibleGifts .card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+#edibleGifts .card p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+    

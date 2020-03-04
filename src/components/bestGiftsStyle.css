@@ -1,0 +1,43 @@
+#bestGifts{
+    margin-top: 30px;
+}
+#subHead h1 {
+    font-size: 24px;
+    text-align: center;
+}
+#subHead p{
+    color: #222;
+    text-align: center;    
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.bestGiftItems{
+    margin-top:50px;
+}
+.bestGiftItems h1{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.bestGiftItems h1 button{
+    position: absolute;
+    right: 20px;
+}
+#bestGifts .card{
+    padding: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+#bestGifts .card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+#bestGifts .card p{
+font-size: 14px;
+}
+#bestGifts .card span{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+    
